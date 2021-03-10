@@ -13,9 +13,9 @@ crate-type = ["cdylib"]
 
 [dependencies]
 getrandom = { version = "0.2", features = ["js"] }
-photon-rs = "0.2.0"
+photon-rs = { git = "https://github.com/silvia-odwyer/photon.git", rev = "2ede392066743a478a05ff674ea55f64ae437ab6" }
 rand = { version = "0.8.0" }
-wasm-bindgen = "0.2"
+wasm-bindgen = "0.2.71"
 
 [package.metadata.wasm-pack.profile.release]
 wasm-opt = ["-O", "--enable-mutable-globals"]
