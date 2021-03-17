@@ -4,7 +4,6 @@
     "build-wasm-node": "wasm-pack build --target nodejs --out-dir pkg-node",
     "build-wasm-webpack": "wasm-pack build --target bundler --out-dir pkg"
   },
-  "dependencies": {},
   "devDependencies": {
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
